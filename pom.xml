@@ -18,6 +18,9 @@
 	<url>https://github.com/spring-projects/spring-data-elasticsearch</url>
 
 	<properties>
+		<java.version>17</java.version>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<springdata.commons>3.4.0-SNAPSHOT</springdata.commons>
 
 		<!-- version of the ElasticsearchClient	-->
