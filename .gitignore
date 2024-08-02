@@ -24,6 +24,7 @@ target
 
 
 /zap.env
+logs/
 /localdocker.env
 .localdocker-env
 
